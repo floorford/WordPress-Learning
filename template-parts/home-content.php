@@ -11,14 +11,14 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' );
-		echo "<h2 class='entry-title'>This is only on the home page!</h2>";
 		?>
 	</header><!-- .entry-header -->
 
 	<?php twentysixteen_post_thumbnail(); ?>
 
-	<div class="home-entry-content">
+	<div class="entry-content">
 		<?php
+		echo "<h2 class='entry-title'>Spooooky forest!</h2>";
 		the_content();
 
 		wp_link_pages( array(

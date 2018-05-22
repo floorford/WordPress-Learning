@@ -5,6 +5,10 @@
  Template:     twentysixteen
 */
 
-.home-entry-content {
+.home .entry-content {
   color:red;
+}
+
+.page-template-template-teampage .site-main {
+  background-color: green;
 }
