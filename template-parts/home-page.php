@@ -17,7 +17,7 @@
 
 	<?php twentysixteen_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<div class="home-entry-content">
 		<?php
 		the_content();
 
